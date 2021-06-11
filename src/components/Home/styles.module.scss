@@ -1,0 +1,35 @@
+.homepage {
+    width: 100vw;
+    height: 76.8rem;
+
+    .headerContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+        height: 10.3rem;
+        width: 100vw;
+    
+            .logo{
+                font-size: 3.2rem;
+                font-family: 'Montserrat', sans-serif;
+                color: var(--title-color);
+            }
+            .menu{
+                display: flex;
+                align-items: center;
+            }
+            a{
+                font-family: 'Mulish', sans-serif;
+                font-size: 1.6rem;
+                padding: 1.5rem 2.5rem 1.6rem 3.0rem;
+                letter-spacing: 0.2rem;
+                cursor: pointer;
+                transition: 0.2s;
+            }
+            a:hover {
+                background-color: #fff;
+                color: var(--green-light);
+            }
+    }
+}
