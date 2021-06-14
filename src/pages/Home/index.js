@@ -1,7 +1,10 @@
+import Search from '../../components/Search'
+import SearchColumn from '../../components/SearchColumn'
 import styles from './styles.module.scss';
 
 export default function Home() {
     return (
+        <>
         <div className={styles.homepage}>
             <header className={styles.headerContainer}>
                 <h1 className={styles.logo}>
@@ -14,14 +17,9 @@ export default function Home() {
                     <span>REGISTER</span>
                 </nav>
             </header>
-
-            <div className={styles.innerContainer}>
-                <h1>Ready for<br/> Trying a new recipe?</h1>
-                <div className={styles.sendText}>
-                    <input type="text" placeholder="Search healthy recipes"/>
-                    <button><img src="assets/search.png" alt="search icon" /></button>
-                </div>
-            </div>
+            <Search />
         </div>
+        <SearchColumn />
+        </>
     )
 }
