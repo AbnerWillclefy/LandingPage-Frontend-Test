@@ -1,10 +1,8 @@
 import Search from '../../components/Search'
-import SearchColumn from '../../components/SearchColumn'
 import styles from './styles.module.scss';
 
 export default function Home() {
     return (
-        <>
         <div className={styles.homepage}>
             <header className={styles.headerContainer}>
                 <h1 className={styles.logo}>
@@ -19,7 +17,5 @@ export default function Home() {
             </header>
             <Search />
         </div>
-        <SearchColumn />
-        </>
     )
 }

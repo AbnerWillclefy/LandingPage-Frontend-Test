@@ -1,0 +1,18 @@
+.container {
+    height: 10.3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    span{
+        font-family: 'Mulish', sans-serif;
+        font-size: 1.6rem;
+        color: var(--text-color);
+    }
+    
+    .innerContainer {
+        display: flex;
+        gap: 4rem;
+    }
+}

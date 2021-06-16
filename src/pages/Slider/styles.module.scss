@@ -11,27 +11,11 @@
     max-width: 1440px;
     margin-bottom: 10rem;
     position: relative;
-    
-
-    .arrowLeft {
-        position: absolute;
-        top: 70%;
-        right: 90%;
-        transform: rotate(180deg);
-        opacity: 50%;
-    }
-
-    .arrowRight {
-        position: absolute;
-        top: 70%;
-        left: 90%;
-        opacity: 50%;
-    }
 
     .slideContainer {
         margin-top: 3.2rem;
         width: 100%;
-        overflow: hidden;
+        overflow: scroll;
         align-content: center;
         scroll-behavior: smooth;
 
@@ -39,15 +23,18 @@
             display: flex;
             justify-content: center;
             gap: 2.4rem;
-            width: 180rem;
+            width: 160rem;
 
-        
             .cards {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
     
                 height: 45rem;
+
+                margin: 2rem 0;
+
+                box-shadow: 0px 6px 6px rgba(0,0,0,.1);
     
                 img {
                     width: 34.8rem;

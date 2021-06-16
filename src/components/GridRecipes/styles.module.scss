@@ -6,6 +6,8 @@
     gap: 3.6rem;
     width: 100%;
 
+    margin-top: 3rem;
+
     .comida {
         display: flex;
         align-items: center;
@@ -52,10 +54,6 @@
 
                     transition: 0.1s;
                 }
-
-                button:active {
-                    transform: scale(1.1);
-                }
             }
         }
     }
@@ -63,10 +61,9 @@
 
 @media (max-width: 768px) {
     .comida {
-        flex-direction: column;
-
         img {
-            border-radius: 5px;
+            height: 60%;
+            width: 60%;
         }
     }
 }

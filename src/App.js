@@ -1,5 +1,7 @@
+import Footer from './pages/Footer';
 import Home from './pages/Home';
 import Info from './pages/Info';
+import Join from './pages/Join';
 import Recipes from './pages/Recipes';
 import Slider from './pages/Slider';
 import styles from './styles/app.module.scss';
@@ -12,6 +14,8 @@ function App() {
       <Recipes />
       <Info />
       <Slider />
+      <Join />
+      <Footer />
     </main>
   );
 }

@@ -39,20 +39,19 @@
             width: 5.2rem;
             border: none;
             outline: none;
+            cursor: pointer;
+            transition: 0.1s;
 
             img{
                 filter: invert(100%);
             }
         }
-
-        button:active{
-            transform: scale(1.1);
-        }
     }
 }
 
-@media (max-width: 768px) {
-    .innerContainer{
-        display: none;
+@media (max-width: 425px) {
+    img {
+        height: 50%;
+        width: 50%;
     }
 }

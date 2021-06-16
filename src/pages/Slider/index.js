@@ -8,14 +8,9 @@ export default function Slider() {
     return (
         <div className={styles.SliderPage}>
             <PageTitle title="Read Our Blog">Far far away, behind the word mountains,  far from the countries Vokalia and Consonantia, there live the blind texts.</PageTitle>
-            <a href="#primeiro" className={display ? styles.arrowLeft : styles.noDisplay} onClick={() => setDisplay(false)}>
-                <img src="assets/right-arrow.png" alt=''/></a>
-            <a href="#ultimo" className={display ? styles.noDisplay : styles.arrowRight} onClick={() => setDisplay(true)}>
-                <img src="assets/right-arrow.png" alt=''/></a>
-
             <div className={styles.slideContainer}>
                 <div className={styles.slide}>
-                    <div className={styles.cards} id="primeiro">
+                    <div className={styles.cards}>
                         <img src="assets/blog_image_1.svg" alt=''/>
                         <div className={styles.description}>
                             <div className={styles.innerContainer}>
@@ -42,7 +37,7 @@ export default function Slider() {
                             </div>
                         </div>
                     </div>
-                    <div className={styles.cards} id="ultimo">
+                    <div className={styles.cards}>
                         <img src="assets/bloco_image_4.svg" alt=''/>
                         <div className={styles.description}>
                             <div className={styles.innerContainer}>
