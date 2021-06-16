@@ -1,3 +1,7 @@
+.noDisplay {
+    visibility: hidden;
+}
+
 .SliderPage {
     display: flex;
     flex-direction: column;
@@ -6,38 +10,36 @@
     width: 100%;
     max-width: 1440px;
     margin-bottom: 10rem;
+    position: relative;
     
 
     .arrowLeft {
-        position: relative;
-        top: 30rem;
-        right: 60rem;
-        z-index: 2;
+        position: absolute;
+        top: 70%;
+        right: 90%;
+        transform: rotate(180deg);
+        opacity: 50%;
     }
 
     .arrowRight {
-        position: relative;
-        top: 30rem;
-        left: 60rem;
-        z-index: 2;
+        position: absolute;
+        top: 70%;
+        left: 90%;
+        opacity: 50%;
     }
 
     .slideContainer {
         margin-top: 3.2rem;
         width: 100%;
-        position: relative;
-        z-index: 0;
         overflow: hidden;
         align-content: center;
         scroll-behavior: smooth;
 
         .slide {
-            position: relative;
             display: flex;
             justify-content: center;
             gap: 2.4rem;
             width: 180rem;
-            z-index: 1;
 
         
             .cards {
@@ -55,6 +57,8 @@
                 .innerContainer {
                     display: flex;
                     flex-wrap: wrap;
+
+                    margin-top: 3rem;
     
                     width: 27.1rem;
                     height: 14.2rem;
