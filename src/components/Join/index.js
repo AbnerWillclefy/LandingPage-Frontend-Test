@@ -3,7 +3,7 @@ import styles from './styles.module.scss'
 export default function Join() {
     return (
         <div className={styles.container}>
-            <div className={styles.innerContainer}>
+            <div className={styles.innerContainer} id="Join">
                 <h2>Join our membership to get special offer</h2>
                 <div className={styles.join}>
                     <input type='text' placeholder='Enter your email adress'/>

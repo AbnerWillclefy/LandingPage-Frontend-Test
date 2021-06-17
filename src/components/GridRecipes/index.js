@@ -2,7 +2,7 @@ import styles from './styles.module.scss'
 
 export default function GridRecipes() {
     return (
-        <div className={styles.grid}>
+        <div className={styles.grid} >
             <div className={styles.comida}>
                 <img src="assets/comida_1.svg" alt="comida1"/>
                 <div className={styles.description}>

@@ -1,0 +1,87 @@
+.page {
+    width: 100vw;
+    height: 100vh;
+    max-width: 1440px;
+    background: url('Illustration.svg') no-repeat top right;
+    background-size: 60%;
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        height: 10.3rem;
+        align-items: center;
+
+        h1 {
+            font-size: 3.2rem;
+            font-family: 'Montserrat', sans-serif;
+            color: var(--green-light);
+        }
+
+        span{
+            font-family: 'Mulish', sans-serif;
+            font-size: 1.6rem;
+            padding: 1.5rem 2.5rem 1.6rem 3.0rem;
+            letter-spacing: 0.2rem;
+            cursor: pointer;
+            transition: 0.2s;
+            border-radius: 5px;
+            color: #fff;
+        }
+        span:hover {
+            background-color: #fff;
+            color: var(--green-light);
+        }
+    }
+
+    .registro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        position: relative;
+        top: 5%;
+        right: 25%;
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--title-color);
+            font-size: 3.2rem;
+            margin-bottom: 2rem;
+        }
+
+        input {
+            width: 38rem;
+            height: 5.2rem;
+            padding: 1.5rem 1.6rem 1.6rem;
+            border: 1px solid #2D3561;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        .short {
+            width: 18rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-column-gap: 2rem;
+            grid-row-gap: 2rem;
+        }
+
+        button {
+            width: 38rem;
+            height: 5.2rem;
+            padding: 1.5rem 1.6rem 1.6rem;
+            border-radius: 5px;
+            outline: none;
+            background-color: var(--green-light);
+            border: none;
+            color: #fff;
+            font-size: 1.6rem;
+            font-family: 'Mulish', sans-serif;
+        }
+    }
+}

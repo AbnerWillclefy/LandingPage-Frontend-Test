@@ -1,14 +1,12 @@
 import styles from './styles.module.scss'
 import PageTitle from "../../components/PageTitle";
-import { useState } from 'react';
 
 export default function Slider() {
-    const [display, setDisplay] = useState(false);
 
     return (
-        <div className={styles.SliderPage}>
+        <div className={styles.SliderPage} id="Blog">
             <PageTitle title="Read Our Blog">Far far away, behind the word mountains,  far from the countries Vokalia and Consonantia, there live the blind texts.</PageTitle>
-            <div className={styles.slideContainer}>
+            <div className={styles.slideContainer} >
                 <div className={styles.slide}>
                     <div className={styles.cards}>
                         <img src="assets/blog_image_1.svg" alt=''/>
